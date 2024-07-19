@@ -1,0 +1,16 @@
+name: django-workflow-wxample
+on:
+    issue:
+        types:
+            -   opened
+            -   labeled
+    push:
+        branches:
+            -   main
+        paths:
+            -   '**.py'
+        paths-ignore:
+            -   'docs/**'                   
+    pull_request:
+        branches_ignore:
+            -   'stage'           
