@@ -1,4 +1,4 @@
-name: BulutKlinik App Deploy Automation
+name: BulutKlinik App Deploy Automation.
 
 on:
   push:
