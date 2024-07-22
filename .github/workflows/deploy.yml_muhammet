@@ -1,4 +1,4 @@
-name: Deploy PHP Applicatio
+name: Deploy PHP Application
 
 on:
   push:
